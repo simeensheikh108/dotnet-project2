@@ -21,7 +21,7 @@ namespace AspNetCoreWebService.Controllers
         }
 
         [HttpPost]
-        public JsonResult Post([FromBody]string name = "World")
+        public JsonResult Post([FromBody]string name = "Bye")
         {
             return Json(new Response
             {
